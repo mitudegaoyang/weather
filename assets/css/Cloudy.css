@@ -1,0 +1,39 @@
+.cloudy:before,
+.rainy:before,
+.snowy:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: #fff 22px -15px 0 6px,
+        #fff 57px -6px 0 2px, 
+        #fff 87px 4px 0 -4px,
+        #fff 33px 6px 0 6px,
+        #fff 61px 6px 0 2px,
+        #ccc 29px -23px 0 6px,
+        #ccc 64px -14px 0 2px,
+        #ccc 94px -4px 0 -4px;
+    z-index: 2;
+}
+
+.cloudy:before {
+    animation: cloudyScale 2s linear infinite
+}
+
+@keyframes cloudyScale
+{
+    0% {
+        top: 50%;
+    }
+    50% {
+        top: 52%;
+    }
+    100% {
+        top: 50%;
+    }
+}

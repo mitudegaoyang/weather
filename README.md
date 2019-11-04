@@ -50,3 +50,4 @@ weather
 
 * [单标签！纯CSS实现动态晴阴雨雪](https://zhuanlan.zhihu.com/p/75279517)
 * [css中margin为负数的深入研究](https://www.cnblogs.com/chenlei987/p/10410428.html)
+* [CSS3--clip-path练习](https://www.cnblogs.com/liangdecha/p/9629150.html)
