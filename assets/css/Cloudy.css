@@ -22,10 +22,10 @@
 }
 
 .cloudy:before {
-    animation: cloudyScale 2s linear infinite
+    animation: cloudMove 2s linear infinite
 }
 
-@keyframes cloudyScale
+@keyframes cloudMove
 {
     0% {
         top: 50%;
